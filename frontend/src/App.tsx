@@ -239,7 +239,7 @@ function App() {
 
   return (
     <div className={`app-container theme-umich`}>
-      <div className="content-wrapper">
+      <div className="content-wrapper glassy with-shimmer">
         <header className="app-header">
           <div className="logo">
             <h1>Blueprint by <span style={{ color: '#FFCB05' }}>MGCC</span></h1>
@@ -386,8 +386,6 @@ function App() {
         <footer className="app-footer">
           <div className="footer-content">
             <span>Powered by <img src="/MGCC_LOGO_2024_no_des.png" alt="MGCC Logo" className="logo-icon" style={{ height: '1em', verticalAlign: 'middle', paddingLeft: '0.3em' }} /></span>
-            <span>•</span>
-            <span>Michigan Graduate Consulting Club</span>
           </div>
         </footer>
       </div>
