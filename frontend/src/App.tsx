@@ -242,9 +242,10 @@ function App() {
       <div className="content-wrapper glassy with-shimmer">
         <header className="app-header">
           <div className="logo">
+            {/* <h1>Blueprint by <span style={{ color: '#FFCB05' }}>MGCC</span><span style={{fontSize: '0.4em', paddingLeft: '0.8em' }}>(Michigan Graduate Consulting Club)</span></h1> */}
             <h1>Blueprint by <span style={{ color: '#FFCB05' }}>MGCC</span></h1>
           </div>
-          <p className="app-description">All-in-one toolkit for management consultants</p>
+          <p className="app-description">All-in-one toolkit for Management Consultants</p>
           <ToolTabs />
         </header>
 
