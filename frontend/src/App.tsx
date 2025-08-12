@@ -242,8 +242,7 @@ function App() {
       <div className="content-wrapper">
         <header className="app-header">
           <div className="logo">
-            <div className="logo-icon">📊</div>
-            <h1>Blueprint by MGCC</h1>
+            <h1>Blueprint by <span style={{ color: '#FFCB05' }}>MGCC</span></h1>
           </div>
           <p className="app-description">All-in-one toolkit for management consultants</p>
           <ToolTabs />
@@ -386,9 +385,9 @@ function App() {
 
         <footer className="app-footer">
           <div className="footer-content">
-            <span>Backend running at localhost:8000</span>
+            <span>Powered by <img src="/MGCC_LOGO_2024_no_des.png" alt="MGCC Logo" className="logo-icon" style={{ height: '1em', verticalAlign: 'middle', paddingLeft: '0.3em' }} /></span>
             <span>•</span>
-            <span>Powered by Fireworks AI</span>
+            <span>Michigan Graduate Consulting Club</span>
           </div>
         </footer>
       </div>
